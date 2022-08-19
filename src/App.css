@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+body {
+  min-height: 86.5vh;
+  background: #005aa7; /* fallback for old browsers */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background: -webkit-linear-gradient(
+    to top,
+    #fffde4,
+    #005aa7
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to top,
+    #fffde4,
+    #005aa7
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.todo-app {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 37.5em;
+  min-height: 37.5%;
+  background: hsla(229, 32%, 13%, 0.8);
+  text-align: center;
+  margin: 8em auto;
+  border-radius: 0.62em;
+  padding-bottom: 3em;
+}

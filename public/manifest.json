@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Todo List",
+  "version": "1.0",
+  "description": "List your Tasks",
+
+  "icons": {
+    "16": "Todo.png",
+    "32": "Todo.png",
+    "48": "Todo.png",
+    "128": "Todo.png"
+  },
+
+  "action": {
+    "default_title": "Todo List",
+    "default_popup": "index.html",
+    "default_icon": "Todo.png"
+  }
+}
