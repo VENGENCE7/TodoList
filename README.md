@@ -45,7 +45,7 @@
 
 # Preview
 
-<div align="center">
+<div >
 <img src="https://user-images.githubusercontent.com/86911386/185742661-03d7cd72-48ad-4b19-8831-b25979423986.png" alt="image" height="400" width="475"> 
  &ensp;
  <img src="https://user-images.githubusercontent.com/86911386/185742659-c9363a20-10ff-42ca-bba6-cb97cc773aa5.png" alt="image" height="400" width="475"> 
