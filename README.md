@@ -1,3 +1,62 @@
+<div id="top"></div>
+
+
+<!-- PROJECT SHIELDS -->
+<!--
+-->
+
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![BSD3 License][license-shield]][license-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
+
+[![Vercel][Vercel-shield]][Vercel-url]
+[![GH-Pages][GH-Pages-shield]][GH-Pages-url]
+
+
+<!-- PROJECT LOGO -->
+<br />
+
+<div align="center">
+  <a href="https://github.com/VENGENCE7/TodoList">
+    <img src="public/Todo.png" alt="Logo" width="250" height="250">
+  </a>
+
+<h3 align="center">TodoList</h3>
+
+  <p align="center">Modern Todo List react app where you can perform CRUD operations.Drag,drop and reorder is also possible.
+    <br />
+    <br />
+    <a href="https://vengence7.github.io/TodoList/"><strong> << Git Hub Deployment >></strong></a>
+    <br />
+    <br />
+    <a href="https://todo-list-react-vengence7.vercel.app/"><strong> << Vercel Deployment >></strong></a>
+    <br />
+    <br />
+    <a href="https://github.com/VENGENCE7/TodoList/issues">Report Bug</a>
+     : 
+    <a href="https://github.com/VENGENCE7/TodoList/issues">Request Feature</a>
+    :
+    <a href="#contact">Contact me</a>
+  </p>
+</div>
+
+# Preview
+
+<div align="center">
+<img src="https://user-images.githubusercontent.com/86911386/185742661-03d7cd72-48ad-4b19-8831-b25979423986.png" alt="image" height="400" width="475"> 
+ &ensp;
+ <img src="https://user-images.githubusercontent.com/86911386/185742659-c9363a20-10ff-42ca-bba6-cb97cc773aa5.png" alt="image" height="400" width="475"> 
+ 
+ <br>
+ 
+<img src="https://user-images.githubusercontent.com/86911386/185742658-3c37bb2a-b466-451d-8b8d-7da5939a3631.png" alt="image" height="400" width="475"> 
+ &ensp;
+ <img src="https://user-images.githubusercontent.com/86911386/185742660-12fea7e1-efea-4963-89e6-17edb0229d14.png" alt="image" height="400" width="475"> 
+<div/> 
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +127,46 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+<!-- CONTACT -->
+## Contact
+
+Bhavish Anand- bhavish007anand@gmail.com
+
+Project Link: [https://github.com/VENGENCE7/TodoList](https://github.com/VENGENCE7/TodoList)
+
+Github Profile : [https://github.com/VENGENCE7](https://github.com/VENGENCE7)
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+
+[contributors-shield]: https://img.shields.io/github/contributors/VENGENCE7/TodoList.svg?style=for-the-badge
+[contributors-url]: https://github.com/VENGENCE7/TodoList/graphs/contributors
+
+[forks-shield]: https://img.shields.io/github/forks/VENGENCE7/TodoList.svg?style=for-the-badge
+[forks-url]: https://github.com/VENGENCE7/TodoList/network/members
+
+[stars-shield]: https://img.shields.io/github/stars/VENGENCE7/TodoList.svg?style=for-the-badge
+[stars-url]: https://github.com/VENGENCE7/TodoList/stargazers
+
+[issues-shield]: https://img.shields.io/github/issues/VENGENCE7/TodoList.svg?style=for-the-badge
+[issues-url]: https://github.com/VENGENCE7/TodoList/issues
+
+[license-shield]: https://img.shields.io/github/license/VENGENCE7/TodoList.svg?style=for-the-badge
+[license-url]: https://github.com/VENGENCE7/TodoList/blob/main/LICENSE.txt
+
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://linkedin.com/in/bhavish-anand-2113a6206
+
+
+[Vercel-shield]: https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white
+[Vercel-url]: https://todo-list-react-vengence7.vercel.app/
+
+[GH-Pages-shield]:https://img.shields.io/badge/GitHub%20Pages-222222?style=for-the-badge&logo=GitHub%20Pages&logoColor=white
+[GH-Pages-url]: https://vengence7.github.io/TodoList/
+
