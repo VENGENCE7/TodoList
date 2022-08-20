@@ -46,15 +46,15 @@
 # Preview
 
 <div >
-<img src="https://user-images.githubusercontent.com/86911386/185742661-03d7cd72-48ad-4b19-8831-b25979423986.png" alt="image" height="400" width="475"> 
+<img align="center" src="https://user-images.githubusercontent.com/86911386/185742661-03d7cd72-48ad-4b19-8831-b25979423986.png" alt="image" height="400" width="475"> 
  &ensp;
- <img src="https://user-images.githubusercontent.com/86911386/185742659-c9363a20-10ff-42ca-bba6-cb97cc773aa5.png" alt="image" height="400" width="475"> 
+ <img align="center" src="https://user-images.githubusercontent.com/86911386/185742659-c9363a20-10ff-42ca-bba6-cb97cc773aa5.png" alt="image" height="400" width="475"> 
  
  <br>
  
-<img src="https://user-images.githubusercontent.com/86911386/185742658-3c37bb2a-b466-451d-8b8d-7da5939a3631.png" alt="image" height="400" width="475"> 
+<img align="center" src="https://user-images.githubusercontent.com/86911386/185742658-3c37bb2a-b466-451d-8b8d-7da5939a3631.png" alt="image" height="400" width="475"> 
  &ensp;
- <img src="https://user-images.githubusercontent.com/86911386/185742660-12fea7e1-efea-4963-89e6-17edb0229d14.png" alt="image" height="400" width="475"> 
+ <img align="center" src="https://user-images.githubusercontent.com/86911386/185742660-12fea7e1-efea-4963-89e6-17edb0229d14.png" alt="image" height="400" width="475"> 
 <div/> 
 
 # Getting Started with Create React App
