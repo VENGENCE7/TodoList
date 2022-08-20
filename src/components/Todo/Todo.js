@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Draggable } from "react-beautiful-dnd";
 
 import "./Todo.css";
 import TodoForm from "../TodoForm/TodoForm";
@@ -27,35 +28,42 @@ const Todo = ({ todos, completeTodo, removeTodo, updateTodo }) => {
   }
 
   return todos.map((todo, index) => (
-    <div
-      className={todo.isComplete ? "todo-row complete" : "todo-row"}
-      key={index}
-    >
-      <div key={todo.id} onClick={() => completeTodo(todo.id)}>
-        {todo.isComplete ? (
-          <i className="complete-status-icon">
-            <GiCrossMark />
-          </i>
-        ) : (
-          <i className="complete-status-icon">
-            <GiCheckMark />
-          </i>
+    <>
+      <Draggable key={todo.id} draggableId={todo.id.toString()} index={index}>
+        {(provided) => (
+          <div
+            ref={provided.innerRef}
+            {...provided.draggableProps}
+            {...provided.dragHandleProps}
+            className={todo.isComplete ? "todo-row complete" : "todo-row"}
+            key={todo.id}
+          >
+            <div key={todo.id} onClick={() => completeTodo(todo.id)}>
+              {todo.isComplete ? (
+                <i className="complete-status-icon-cross">
+                  <GiCrossMark />
+                </i>
+              ) : (
+                <i className="complete-status-icon">
+                  <GiCheckMark />
+                </i>
+              )}
+              {todo.text}
+            </div>
+            <div className="icons">
+              <RiCloseCircleLine
+                onClick={() => removeTodo(todo.id)}
+                className="delete-icon"
+              />
+              <TiEdit
+                onClick={() => setEdit({ id: todo.id, value: todo.text })}
+                className="edit-icon"
+              />
+            </div>
+          </div>
         )}
-        {todo.text}
-      </div>
-      <div className="icons">
-        <RiCloseCircleLine
-          onClick={() => removeTodo(todo.id)}
-          className="delete-icon"
-        />
-        <TiEdit
-          onClick={() => setEdit({ id: todo.id, value: todo.text })}
-          className="edit-icon"
-        />
-      </div>
-    </div>
-    //   )}
-    // </Droppable>
+      </Draggable>
+    </>
   ));
 };
 
