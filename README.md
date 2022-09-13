@@ -14,6 +14,7 @@
 
 [![Vercel][Vercel-shield]][Vercel-url]
 [![GH-Pages][GH-Pages-shield]][GH-Pages-url]
+[![Netlify][Netlify-shield]][Netlify-url]
 
 
 <!-- PROJECT LOGO -->
@@ -33,6 +34,9 @@
     <br />
     <br />
     <a href="https://todo-list-react-vengence7.vercel.app/"><strong> << Vercel Deployment >></strong></a>
+    <br />
+    <br />
+    <a href="https://to-do-liist.netlify.app/"><strong> << Netlify Deployment >></strong></a>
     <br />
     <br />
     <a href="https://github.com/VENGENCE7/TodoList/issues">Report Bug</a>
@@ -170,3 +174,5 @@ Github Profile : [https://github.com/VENGENCE7](https://github.com/VENGENCE7)
 [GH-Pages-shield]:https://img.shields.io/badge/GitHub%20Pages-222222?style=for-the-badge&logo=GitHub%20Pages&logoColor=white
 [GH-Pages-url]: https://vengence7.github.io/TodoList/
 
+[Netlify-shield]:https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white
+[Netlify-url]:https://to-do-liist.netlify.app/
