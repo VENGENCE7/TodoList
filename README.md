@@ -27,6 +27,8 @@
 
 <h3 align="center">TodoList</h3>
 
+#### This is a progressive web application (PWA).Can be installed on phone and used offline.
+ 
   <p align="center">Modern Todo List react app where you can perform CRUD operations.Drag,drop and reorder is also possible.
     <br />
     <br />
